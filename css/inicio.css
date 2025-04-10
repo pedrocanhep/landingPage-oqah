@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+:root {
+  --primary001: #F2F3AE;
+  --primary002: #36393B;
+  --orange001: #FF4000;
+  --orange002: #FF5117;
+
+  --font: 'Poppins', sans-serif;
+}
+
+#inicio {
+  padding: 30px;
+  height: calc(100vh - 60px);
+
+  display: flex;
+  justify-content: space-between;
+
+  background-color: var(--primary001);
+}
+
+.conteudo-inicio {
+  flex: 1 1 50%;
+}
+
+main.conteudo-inicio {
+  display: flex;
+  flex-direction: column;
+
+  padding: 80px 110px 80px 70px;
+}
+
+main.conteudo-inicio > h2 {
+  font-size: 2.7em;
+  font-family: var(--font);
+  color: var(--primary002);
+}
+
+main.conteudo-inicio > h2 > b {
+  color: var(--orange001);
+}
+
+main.conteudo-inicio > p {
+  font-size: .9em;
+  color: var(--primary002);
+  margin-top: 15px;
+}
+
+main.conteudo-inicio > button {
+  width: 250px;
+  height: 60px;
+  align-self: center;
+  margin-top: 50px;
+
+  background-color: var(--orange001);
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+main.conteudo-inicio > button:hover {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  border: 3.5px solid var(--orange002);
+  background-color: #FFF;
+  color: var(--primary002);
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+aside {
+  background-color: #FF51174d;
+  border-radius: 40% 40% 5px 25%;
+
+  display: flex;
+
+  padding: 90px;
+  padding-left: 140px;
+}

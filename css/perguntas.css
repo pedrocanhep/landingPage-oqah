@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+:root {
+  --primary001: #F2F3AE;
+  --primary002: #36393B;
+  --orange001: #FF4000;
+  --orange002: #FF5117;
+
+  --font: 'Poppins', sans-serif;
+}
+
+#perguntas {
+  display: flex;
+  background-image: url(../midia/wave.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 25px;
+}
+
+#perguntas > img {
+  width: 40%;
+}
+
+#perguntas > main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  padding: 15px 20px;
+}
+
+#perguntas > main > h3 {
+  font-size: 2em;
+  margin-bottom: 30px;
+
+  font-weight: bolder;
+}
+
+#perguntas > main > h4 {
+  color: var(--orange002);
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+#perguntas > main > p {
+  width: 80%;
+  color: var(--primary002);
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+#perguntas > main > p > b {
+  color: #000;
+}
